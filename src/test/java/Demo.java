@@ -32,6 +32,7 @@ public class Demo
         System.out.println("Alert msg print"+text2);
         alert2.sendKeys("RajKumar");
         alert2.accept();
+        driver.quit();
 
 
     }
